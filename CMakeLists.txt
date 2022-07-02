@@ -8,8 +8,6 @@ add_compile_options(-std=c++11)
 
 find_package(yaml-cpp REQUIRED)
 
-set(PCL_BUILD_TYPE Release)
-
 add_executable(yaml_parse_test main.cpp)
 
 target_link_libraries(
